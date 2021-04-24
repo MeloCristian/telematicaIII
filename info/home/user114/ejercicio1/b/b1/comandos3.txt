@@ -1,0 +1,19 @@
+touch:
+crea un archivo en la ruta especificada 
+touch hola --> crea el archivo hola
+touch dos --> crea el archivo dos
+
+pico: 
+es un comando que se utiliza para editar archivos de texto
+pico testfile --> edita el archivo testfile
+
+passwd:
+asigna una contrania a un usuario
+passwd user114 asigna una contrasenia a user114
+
+du: 
+muestra el espacio en disco que ocupa un archivo
+du -a images --> muestra todos los archivos de la carpeta images y sus tamanios
+
+
+

@@ -1,0 +1,4 @@
+estado en /home/user114  ejecutamos el comando
+mkdir -p ejercicio1/{a/{a1,a2},b/b1,c/{c1,c2},copia,movido,todo}
+con mkdir creamos los directorios y con -p especificamos los padres, luego agrupamos 
+los directorios con {}.  

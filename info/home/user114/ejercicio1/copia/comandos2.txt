@@ -1,0 +1,36 @@
+cp:
+copia ficheros y directorios.
+si queremos copiar de /home a /etc el archivo ejercicio1
+cp /home/user114/ejercicio1 /etc
+
+mv:
+mueve un archivo de una ruta origen a una ruta destino, 
+resaltado que no es una copia sino un movimiento.
+mv /home/user114/ejercicio1 /home --> mueve la carpeta ejercicio1 a /home 
+
+tail: 
+sirve para leer una parte de un archivo generamente muestra las 10 ultimas lineas de un archivo
+si no se especifica nada
+tail /var/log/syslog --> muestra las 10 ultimas lineas del archivo syslog
+tail -n6 /var/log/syslog --> mustra las ultimas 6 lineas del archivo syslog
+
+uname: 
+sirve para imprimir informacion del sistema
+uname -a --> da toda la informacion disponible del sistema
+uname -s --> muetsra el nombre del sistema
+
+top: Muestra un resumen del estado de nustro sistema y la lista de los procesos que se 
+estan ejecutando.
+
+apt-get:
+gestiona los paquetes instalables disponibles en los repositorios. 
+apt-get install wine --> instala el paquete wine que sirve para emular apliacaciones windows
+apt-get install g++ --> instala el conpilador de c++ para linux.
+
+reboot:
+reinicia la maquina.
+
+poweroff:
+apaga la maquina.
+
+

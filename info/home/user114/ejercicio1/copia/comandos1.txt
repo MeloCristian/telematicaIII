@@ -1,0 +1,58 @@
+date:
+muestra toda fecha del sistema usando solo "date"
+o tambien calcula fechas usando la opcion -d
+date --> muestra la fecha de hoy.
+date -d "tomorrow" --> muestra la fecha exactamente un dia despues de hoy.
+
+cd:
+navega a traves de los directorios del sistema ejemplo:
+si estamos en /home/user114 y queremos ir a la raiz del sistema seria:
+cd / --> nos lleva al direcctorio rut y se ha especificado una ruta absoluta.
+cd /home/user114/ejercicio1 --> nos lleva a la carpeta del usuario ejercicio 1 dentro de user114
+cd ../ --> si estamos en ejercicio1 nos lleva a /home/user114 y es una ruta relativa.
+
+ls:
+lista el contenido de un direcctorio se pueden especificar parametros para mayor informacion 
+del contenido.
+estado en /home/user114
+ls --> ejercicio1 --> mustra el contenido de /home/user114 en este caso la carpeta ejercicio1
+ls -la --> muesta permisos que tienen los archivos o carpetas y sus propietarios. 
+
+pwd: 
+muestra el directorio de trabajo
+estado en /home 
+pwd --> /home muestra la ruta sobre la cual estamos actualmente.
+
+clear: 
+limpea la consola y nos hubica en la primera linea de esta.
+si tenemso algo como:
+cd ../
+cd /
+cd /home/user114
+exit
+mkdir ejemplo 
+y ejecutamos clear dara como resultado:
+~$ _ 
+
+mkdir:
+crea un direcctorio en la ruta especificada si no se especifica ninguna ruta lo crea en el
+directorio de trabajo actual.
+estando en /home/user114
+mkdir ejemplo --> crearia el direcctorio ejemplo dentro de /home/user114
+si queremos crear un directorio y especificar mas subdirectorios podemos hacerlo con -p y con -r
+para que los cree recursivamente 
+mkdir -r ejemplo/cristian/tareas --> crea el directorio cristian dentro de ejemplo y dentro
+de cristian el directorio tareas.
+
+rm:
+sirve para borrar un archivo o direcctorio
+teniendo en cuenta lo anterior si estamos en /home/user114/ejempplo/cristian 
+rm tareas --> borra la carpeta tareas si esta vacia
+rm -r tareas --> borra tareas y todo lo que haya dentro de ella.
+
+sudo:
+se ejecuta para acceder al modo de superusuario si el usuario con el que se lo ejecuta tiene
+estos permisos:
+sudo su --> no lleva al rool de root 
+sudo user114 --> brinda permisos de superusuario a user114.
+sudo comando --> ejecuta un comando como superusuario 

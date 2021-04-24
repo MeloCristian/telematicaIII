@@ -1,0 +1,28 @@
+copiar comandos1.txt comandos2.txt comandos3.txt comandos4.txt a copia
+cp /home/user114/ejercicio1/a/a1/comanodos1.txt /home/user114/ejercicio1/copia
+cp /home/user114/ejercicio1/a/a2/comandos2.txt /home/user114/ejercicio1/copia
+cp /home/user114/ejercicio1/b/b1/comandos3.txt /home/user114/ejecicio1/copia
+cp /home/user114/ejercicio1/c/c1/comandos4.txt /home/user114/ejecicio1/copia
+
+mueva el directorio a1 y a2 al directorio movido
+mv /home/user114/ejercicio1/a/a1 /home/user114/ejecicio1/movido
+mv /home/user114/ejercicio1/a/a2 /home/user114/ejecicio1/movido
+
+comprima y empaquete el contenido del directorio a y guardelo en el directorio todo con el
+nombre a.tar.gz 
+cd /home/user114/ejercicio1
+tar -czvf /home/user114/ejercicio1/todo/a.tar.gz a
+
+comprima el contenido del directorio b y guardelo en todo con el nombre b.gz
+cd /home/user114/ejercicio1 
+tar -czvf /home/user114/ejercicio1/todo/b.gz b
+
+comprima y empaquete el directorio ejercicio1 con el nombre ejercicio1.tar.gz 
+guardelo dentro del dirrectorio /home/user114
+cd /home/user114
+tar -czvf /home/user114/ejercicio1.tar.gz ejercicio1
+
+ 
+
+
+

@@ -1,0 +1,23 @@
+cron:
+el nombre cron bienve del griego chronos que significa tiempo. En el sistema
+operativo Unix, cron es un administrador regular de procesos en segundo plano (demonio)
+que ejecuta procesos o guiones a intervalos regulares. se puede usar para especificar que 
+un proceso se ejecute a determianda fecha y hora.
+
+crontab ejemplo.txt 
+--10 * * * * root apt-get -y update     ## cada hora en el minuto 10
+--30 5 * * * root apt-get -y upgrade    ## todos los dias a las 5:30 horas
+--00 13 * * 0 root systemctl status posgresql.service    ## domingos a las 13 horas.
+
+con crontab se estable el archivo ejemplo.txt como archivo de configuracion para el usuario
+asi con la primera linea del archivo se estara actualizando el sistema de repositorios cada hora
+en el minito 10.
+
+con la segunda linea se hara una actualizacion del sistema todos los dias a las 5:30 horas
+
+co el tercero todos los domingo a las 13 hotas se mostrara el estado del servicio posgresql.
+
+ventajas: 
+1--> puede ser mas facil programar actulizaciones o cambios de estado en los servidores.
+2--> se pude llevar un mejor control del estado del sistema.
+3--> notificacion en caso de fallos. 
